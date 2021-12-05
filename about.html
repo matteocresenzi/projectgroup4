@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--META-->
+    <meta charset="UTF-8">
+    <meta name="author" content="Darrenmond Chao, Matteo Cresenzi, Jason Fox, Seth Vance">
+    <meta name="keywords" content="avocados">
+    <meta name="description" content="Avocado price comparison app.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avoca-Do's and Don'ts</title>
+    <!--EXT RESOURCES-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/c92e9a1909.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <!--ADD ASSETS-->
+    <link rel="stylesheet" href="assets/style/add_main.css">
+    <link rel="stylesheet" href="assets/style/add_metrics.css"><!--TODO-->
+    <script src="assets/scripts/general.js"></script>
+</head>
+<body>
+<header class="cp1">
+    <a href="./"><img src="assets/images/avocado.png"></a>
+    <span class="title HOM">Avoca-</span>
+    <span class="title">Do's and Don'ts</span>
+    <span class="menu"><i id="menu" class="fas fa-bars"></i></span>
+</header>
+<div id="menu-bg" class="sitebody"></div>
+<div id="menu-fg" class="sitebody"><hr>
+    <div class="cp2"><a href="./">Avocado Finder</a></div><hr>
+    <div class="cp2"><a href="./analysis.php">Avocado Analysis</a></div><hr>
+    <div class="cp2"><a href="./metrics.php">Query Metrics</a></div><hr>
+    <div class="cp2"><a href="./about.html">About</a></div><hr>
+</div>
+<div class="sitebody sitevp cp2">
+    <div class="container">
+        <div class="contbox cp1">
+            <h1 class="title">About Avoca-Do's And Don'ts</h1>
+            <hr>
+            <div class="inner">
+                <!--TODO: About Section-->
+                <h6>Jump To Sections:</h6>
+                <ul>
+                    <li><a href="#a1">Price Finder</a></li>
+                    <li><a href="#a2">Volume Finder</a></li>
+                    <li><a href="#a3">Query Metrics</a></li>
+                    <li><a href="#a4">Geolocationing</a></li>
+                    <li><a href="#a5">Credits</a></li>
+                </ul>
+                <h2 id="a1">Price Finder</h2>
+                <p>The avocado price finder allows users of Avoca-Do's and Don'ts to search average pricing trends within one of 53 locations withing the United States. This information has averaged prices of Hass avocados regardless of size. The avocado price finder also allows a more detailed breakdown on a month-to-month basis filtered by year. This allows users to be able to see pricing trends in a region and if there is an observable price increase or decrease in a particular month, providing helpful insight into what avocado's should be priced at in their area during a certain time period.</p>
+                <h2 id="a2">Volume Analysis</h2>
+                <p>The volume analysis tool differs from the price finder tool by displaying information on the volume of avocados sold withing a particular region or city/metropolitan area, rather than the average pricing. This information is broken down into four categories: PLU4046, PLU4225, PLU4770, and uncategorized. These categories define the different sizes of Hass avocado sold in the area. PLU4046 refers to small hass avocados, PLU4225 refers to large hass avocados, PLU4770 refers to extra-large hass avocados, and uncategorized is the difference between the total volume from the region, and the sum of volume of the afformentioned PLUs.  . </p>
+                <h2 id="a3">Query Metrics</h2>
+                <p>The query metrics tool is designed specifically for avocado importers, suppliers, farmers, and the avocado logistics industry as a whole. This page is comprised of two parts. The first part details the user demographics and interest metrics of Avoca-Do's and Don'ts, and the second part is a macroscopic look at the avocado price dataset as a whole.</p>
+                <p>Interest metrics are broken into two parts: the first shows a look at where users of Avoca-Do's and Dont's are predominately are searching for avocado prices. The top five regions/cities/metropolitan areas are listed here. The second shows the types of devices that are being used to search these places. This information can be used in conjunction with other external demographic research to find correlations between types of people and their interest in avocados. It can also allow avocado distributors to see direct, live information on where avocado interest lies throughout the country, thus helping in the planning process for the distribution of avocado stock to the United States.</p>
+                <p>For added context, three additional charts are provided on this page to assist in the visualization of interest in avocados by region. These three charts are as follows: The first chart shows total United States Volume broken down by PLU/size and charted over the entirety to the dataset (2015-2018). The second chart shows the top five regions of the United States for total volume of avocados. This is further broken down by PLU/size. The third and last chart on this page is exactly the same as the previous chart; however, instead of showing the top five regions, it shows the top five cities/metropolitan areas in the United States based on avocado volume.</p>
+                <h2 id="a4">Geolocationing</h2>
+                <img src="assets/images/regionsmap.png" style="width:100%;">
+                <p>The above image shows the geographic constraints on all 53 regions, cities, and metropolitan areas that the dataset is orgranized into. Generally, the larger circles represent regions, and the smaller circles represent city/metropolitan areas. When geo-location services are used on the avocado finder, it matches you most closely to an area defined by the above radii. Specific geolocation information is not saved by Avoca-Do's and Dont's and only records interest in the predefined regions already in existence in the dataset.</p>
+                <hr>
+                <h3>Credits</h3>
+                <h4>UNC Charlotte - 2021 Fall - ITSC3155 - Group 4</h4>
+                <strong>This app was created by Darrenmond Chao, Matteo Cresenzi, Jason Fox, and Seth Vance.</strong>
+                <h4>Special Thanks To:</h4>
+                <ul>
+                    <li><a href="https://www.kaggle.com/neuromusic/avocado-prices">Avocado Dataset <i class="fas fa-external-link-alt"></i></a></li>
+                    <li><a href="https://www.mapdevelopers.com/draw-circle-tool.php">Region Mapping <i class="fas fa-external-link-alt"></i></a></li>
+                    <li><a href="https://github.com/chartjs/Chart.js">Charting Solution <i class="fas fa-external-link-alt"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <br>
+    <footer class="cp1"><span>Copyright 2021 ITSC3155 Group4</span></footer>
+</div>
+</body>
+</html>
