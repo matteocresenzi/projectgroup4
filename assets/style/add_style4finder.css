@@ -1,0 +1,27 @@
+/*NOTE: Page Specific*/
+.toolbar {
+    padding: 5px;
+    width: 100%;
+}
+.toolbar .sel { 
+    border-radius: 5px;
+    background: #704012;
+    text-align: center;
+    display: inline;
+    border: none;
+    height: 40px;
+    color: #fff;
+}
+#cparam1 {
+    max-width: 250px;
+    width: 75%;
+}
+#cparam2 {
+    max-width: 60px;
+    display: none;
+    width: 20%;
+}
+#chartcontainer { 
+    border-radius: 5px;
+    background: #fff;
+}

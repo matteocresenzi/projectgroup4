@@ -1,0 +1,131 @@
+/*Main Style Sheet Template*/
+/*General Theme and Color Pallette*/
+html { height:100%;width:100%;}
+body { height:100%;width:100%;color:#fff; }
+.cp1    { background: #4a7337; }
+.cp2    { background: #6b8c21; }
+.cp3    { background: #ddd48f; }
+.cp4    { background: #cda989; }
+.cp5    { background: #704012; }
+a {color:#fff;text-decoration:none;}
+a:hover {color:#fff;text-decoration:underline;}
+
+/*General Site*/
+.SOM { display: none; }
+header {
+    border-bottom: 5px solid #704012;
+    padding-right: 5px;
+    padding-top: 2px;
+    min-width: 375px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+header img {
+    padding-bottom: 8px;
+    height: 60px;
+    width: 60px;
+}
+header .title {
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 34px;
+}
+header .menu {
+    padding-right: 8px;
+    padding-top: 8px;
+    float: right;
+}
+header .menu i {
+    border-radius: 5px;
+    transition: 300ms background;
+    font-size: 36px;
+    padding: 3px 6px 3px 6px;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+header .menu i:hover {
+    background: #9ad14b;;
+    border: 1px #000;
+    color: #4a7337;
+}
+.sitebody {
+    padding-top: 15px;
+    margin-top: 67px;
+    min-width: 375px;
+    position: fixed;
+    width: 100%;
+}
+#menu-bg {
+    background: #000;
+    border-top: 5px solid #62421C;
+    z-index: 100;
+    opacity: .8;
+    height: 100%;
+    display: none;
+}
+#menu-fg {
+    font-size: 24px;
+    display: none;
+    z-index: 100;
+    width: 100%;
+}
+#menu-fg div {
+    border-radius: 10px;
+    padding-top: 5px;
+    transition: background 500ms;
+    text-align: center;
+    margin: 0 auto;
+    height: 50px;
+    width: 60%;
+}
+#menu-fg div:hover {
+    background: #4a7337;
+}
+#menu-fg hr {
+}
+.sitevp {
+    border-top: 5px solid #62421C;
+    overflow: auto;
+    position: fixed;
+    height: 90%;
+}
+.sitevp footer {
+    padding-top: 7px;
+    text-align: center;
+    position: relative;
+    display: none;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+}
+.contbox {
+    border-radius:2px;
+    box-shadow: 5px 5px 8px #444;
+    max-width: 700px;
+    padding: 10px;
+    width: 95%;
+    margin: 0 auto;
+}
+.contbox .title {
+    font-family: 'Mochiy Pop P One', sans-serif;
+    text-align: center;
+}
+.contbox .inner {
+    position: static;
+    display: block;
+    margin: 0 auto;
+    width: 95%;
+}
+.contbox .inner .subtitle {
+    font-family: 'Mochiy Pop P One', sans-serif;
+    padding-top: 12px;
+    font-style: italic;
+    font-size: 20px;
+}
+/*Mobile Device Style Overrides*/
+@media only screen and (max-width: 768px) { .HOM { display: none; } .SOM { display: block;} }
+@media only screen and (max-width: 420px) {
+    header { padding-top: 7px; }
+    header .title { font-size: 28px; }
+    header .menu i { font-size: 30px; padding: 1px 3px 1px 3px; }
+}
