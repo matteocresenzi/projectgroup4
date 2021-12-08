@@ -92,9 +92,11 @@
                     </select></div>
                 </div>
             </div>
-            <br><br><hr>
+            <br>
+            <div class="helpbar"><span>What's a PLU? </span><i class="far fa-question-circle" id="pluInfo"></i></div>
+            <hr>
             <div class="inner">
-                <h4>Avocado Sales-Volume Information: </h4><i class="far fa-question-circle" id="pluInfo"></i>
+                <h4>Avocado Sales-Volume Information: </h4>
                 <div class="chartcontainer" id="cc0"><canvas id="chart0"></canvas></div>
                 <hr><h4>% Make Up of Volume:</h4>
                 <div class="block">

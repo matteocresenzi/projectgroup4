@@ -52,7 +52,7 @@
             <h1 class="title">Avocado Finder</h1><hr>
             <div class="inner">
                 <div class="shadow sh-init"></div>
-                <input type="text" placeholder="Wherest?" id="sf" autocomplete="off" class="oSha"><br>
+                <input type="text" placeholder="Where?" id="sf" autocomplete="off" class="oSha"><br>
                 <button id="autolocate" class="cp1 oSha">Locate Me <i class="fas fa-location-arrow"></i></button>
                 <!--<div id="loader"></div> -->
                 <div id="suggestions">
