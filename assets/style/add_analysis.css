@@ -87,14 +87,17 @@
     height: 100%;
     width: 50%;
 }
-#pluInfo {
-    font-size: 28px;
-    display: inline;
-    cursor: pointer;
-    float: right;
-    width: 5%;
+.helpbar {
+    text-align: right;
+    width: 100%;
     color: #fff;
 }
+#pluInfo {
+    font-size: 28px;
+    cursor: pointer;
+}
+.helpbar:hover { font-weight: 700; }
+#pluInfo:hover { font-weight: 700; }
 @media only screen and (max-width: 768px) { .inner .block { height: 250px;} }
 @media only screen and (max-width: 420px) {
     .selection {
